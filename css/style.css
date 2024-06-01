@@ -4,11 +4,22 @@
 }
 
 body {
-    color: white;
+    color: black;
     display: flex;
 
 }
+p {
+    color: white;
+}
+h3{
+color: white;
+}
 
+h4{
+    color: white;
+}
+h1{color: white;}
+h2{color: white;}
 div {
     background-color: rgb(68, 66, 66);
 
