@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For u Anisa Fitria Ningsih</title>
+    <link rel="stylesheet" href="surprise.css" />
+  </head>
+  <body>
+    <div class="open">
+      <div class="h1">
+        <h1 style="font-size: 2em; color: #ea3888">
+          Hi!! <span style="color: white">Ganggu ga?!</span>
+        </h1>
+      </div>
+
+      <div class="h3">
+        <h3
+          style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: white"
+        >
+          Anisa fitri ningsih
+        </h3>
+      </div>
+
+      <div class="p">
+        <p class="para" style="color: white">
+          Aku ada sesuatu ni buat kamu, <br />kamu mau liat ga?! <br />
+        </p>
+        <p style="color: #ea3888">
+          mau tekan mau,
+          <span style="color: white">ga tekan ga (tp klo bisa)</span>
+        </p>
+      </div>
+
+      <div class="gambar">
+        <img src="bayi.gif" alt="" />
+      </div>
+      <div class="kotak">
+        <div class="mau"><a href="loveU.html">MAU!!!</a></div>
+        <div class="tidak" id="no"><a href="">GA!</a></div>
+      </div>
+    </div>
+
+    <script>
+      const no = document.getElementById("no");
+
+      no.addEventListener("mouseover", () => {
+        const maxX = window.innerWidth - no.clientWidth - 20;
+        const maxY = window.innerHeight - no.clientHeight - 20;
+
+        const randomX = Math.floor(Math.random() * maxX);
+        const randomY = Math.floor(Math.random() * maxY);
+
+        no.style.left = randomX + "px";
+        no.style.top = randomY + "px";
+      });
+    </script>
+  </body>
+</html>
