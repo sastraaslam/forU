@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+.open {
+  position: relative;
+}
+
+.open .h1 {
+  font-size: 2em;
+  height: 40px;
+}
+
+.open .h3 {
+  font-size: 2em;
+  height: 40px;
+}
+
+.open .p {
+  font-size: 1.5em;
+}
+
+.open .p .para {
+  height: 50px;
+}
+
+.kotak {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.mau a {
+  color: #ea3888;
+}
+
+.kotak .mau {
+  background-color: rgb(78, 18, 65);
+  margin-top: 20px;
+  margin-right: 130px;
+  width: 90px;
+  border-radius: 25%;
+}
+
+.mau a:hover {
+  color: white;
+}
+
+.kotak .mau:hover {
+  background-color: #ea3888;
+  width: 90px;
+}
+
+.mau,
+a {
+  text-decoration: none;
+}
+
+.tidak a {
+  color: white;
+}
+
+.kotak .tidak {
+  background-color: rgb(78, 18, 65);
+  margin-top: 20px;
+  margin-left: 180px;
+  width: 50px;
+  border-radius: 25%;
+}
+
+.tidak a:hover {
+  color: #ea3888;
+}
+
+.kotak .tidak:hover {
+  background-color: white;
+  width: 50px;
+}
+
+.tidak,
+a {
+  text-decoration: none;
+}
+
+.tidak {
+  position: absolute;
+}
+
+@media (max-width: 480px) {
+  .open h3 {
+    margin-top: 110px;
+  }
+
+  .open {
+    font-size: 90%;
+  }
+}
