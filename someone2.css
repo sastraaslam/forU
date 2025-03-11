@@ -779,7 +779,10 @@ body {
 
   .kotak .tombol {
     margin-top: 200px;
-    margin-left: 70%;
-    border: 1px solid white;
+  }
+
+  .kotak {
+    width: 690px;
+    text-align: center;
   }
 }
