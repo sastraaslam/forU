@@ -1,32 +1,11 @@
-#btn-make {
-  bottom: 200px;
-  right: 30px;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-.div_btn {
-  position: fixed;
-  cursor: pointer;
-  width: 55px;
-  height: 55px;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  font-size: 2em;
-  line-height: 58px;
-  text-align: center;
-  z-index: 999;
-}
-#div_support {
-  bottom: 80px;
-  right: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
-}
 body {
   background: #000;
-  height: 100vh;
 }
 
 #ui .text {
-  margin-top: 600px;
+  margin-top: 650px;
+  text-align: center;
+  margin-left: 25%;
 }
 #ui .text1 {
   text-align: center;
@@ -34,12 +13,7 @@ body {
 
 .text {
   height: 100px;
-  text-align: center;
-}
-
-p {
   width: 50%;
-  margin-left: 320px;
 }
 
 #ui .tombol {
@@ -77,17 +51,15 @@ p {
   object-fit: cover;
 }
 
-#ui .love {
+.love {
   position: absolute;
-  top: 80%;
-  left: 50%;
-  margin: -225px 0 0 -270px;
 }
-#ui .love:last-child .love_word {
-  color: #fff;
-  font-size: 2rem;
-  text-shadow: 0 0 10px #ea80b0;
+
+#ui .love {
+  margin-left: 350px;
+  margin-top: 140px;
 }
+
 #ui .love_word {
   color: #ea3888;
   font-size: 1.4rem;
@@ -779,37 +751,35 @@ p {
 
 @media (max-width: 480px) {
   #ui .love {
-    top: 35%;
-    margin-top: 15px;
+    margin-top: 150px;
+    margin-left: 15%;
   }
 
   #ui .text1 {
-    font-size: 2.4em;
-    margin-top: 20%;
+    font-size: 1.5em;
+    width: 700px;
   }
 
   #ui .text {
-    font-size: 2em;
-    margin-top: 70%;
+    font-size: 1.5em;
+    margin-left: 0;
   }
 
-  #ui .tombol {
-    font-size: 4em;
+  #ui .text h1 {
+    width: 700px;
+    margin-right: 100px;
+  }
+
+  #ui .text p {
+    width: 600px;
+
+    margin-right: 0;
+    margin-left: 50px;
   }
 
   .kotak .tombol {
-    width: 150px;
-    margin-left: 45%;
-    margin-top: 33%;
-  }
-
-  .text {
-    width: 100%;
-  }
-
-  .text p {
-    font-size: 1.2em;
-    width: 90%;
-    margin-left: 5%;
+    margin-top: 200px;
+    margin-left: 70%;
+    border: 1px solid white;
   }
 }
