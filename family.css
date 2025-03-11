@@ -24,21 +24,16 @@ body {
 
 .link {
   text-align: center;
-  background-color: white;
-  width: 150px;
-  margin-left: 550px;
   margin-bottom: 30px;
-  border-radius: 50%;
-  box-shadow: 0 0 20px 10px #ea3888;
 }
 
 a {
   color: #ea3888;
+  box-shadow: 0 0 20px 10px #ea3888;
   text-align: center;
   border-radius: 50%;
   text-decoration: none;
-  align-items: center;
-  justify-content: center;
+  background-color: white;
   font-size: 2em;
   text-transform: uppercase;
   width: 90px;
@@ -46,20 +41,16 @@ a {
   margin: auto;
   font-family: cursive;
   margin-bottom: 30px;
-  box-shadow: 0 0 20px 10px #ffffff;
+  box-shadow: 0 0 20px 10px #ea3888;
 }
 
 a:hover {
-  color: white;
-  box-shadow: 0 0 20px 10px #ea3888;
+  color: #ffffff;
+  box-shadow: 0 0 20px 10px #ffffff;
+  background-color: #ea3888;
   width: 90px;
   height: 20px;
   border-radius: 50%;
-}
-
-.link:hover {
-  background-color: #ea3888;
-  box-shadow: 0 0 20px 10px #ffffff;
 }
 
 .kotak img:hover {
@@ -77,7 +68,4 @@ img {
 /* Membuat efek neon pada pinggiran */
 
 @media (max-width: 480px) {
-  .link {
-    margin-left: 130px;
-  }
 }
